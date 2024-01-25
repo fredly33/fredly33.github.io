@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fredly Lafi Maula - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2077b3;
+        }
+
+        header {
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header .profile {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3498db;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #2077b3;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            margin-top: 20px;
+            box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .projects {
+            margin-top: 30px;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: #3498db;
+            transition: color 0.3s ease;
+        }
+
+        .project a:hover {
+            color: #ffd700;
+        }
+
+        .project h3,
+        .hiburan h4 {
+            color: #3498db;
+        }
+
+        .skills {
+            margin-top: 30px;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .skills li {
+            margin-right: 15px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        header .background {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            filter: blur(5px);
+        }
+    </style>
+</head>
+
+<body>
+    <header style="z-index: 1;">
+        <img class="background" src="dogee.jpg" alt="bg">
+        <img class="profile" src="th-removebg-preview.png" alt="Profile Image">
+        <h1>Fredly Lafi Maula</h1>
+        <p>Bukan Web Developer | Masih belajar</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#biodata">Biodata</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+
+        <div style="display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-accessible-off-filled"
+                width="80" height="35" viewBox="0 0 20 25" stroke-width="2" stroke="currentColor" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                    d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.051 6.844a1 1 0 0 0 -1.152 -.663l-.113 .03l-2.684 .895l-2.684 -.895l-.113 -.03a1 1 0 0 0 -.628 1.884l.109 .044l2.316 .771v.976l-1.832 2.75l-.06 .1a1 1 0 0 0 .237 1.21l.1 .076l.101 .06a1 1 0 0 0 1.21 -.237l.076 -.1l1.168 -1.752l1.168 1.752l.07 .093a1 1 0 0 0 1.653 -1.102l-.059 -.1l-1.832 -2.75v-.977l2.316 -.771l.109 -.044a1 1 0 0 0 .524 -1.221zm-3.949 -4.184a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0 -3z"
+                    stroke-width="0" fill="currentColor" />
+            </svg>
+            <h2>About Me</h2>
+        </div>
+        <p>Selamat datang di portofolio saya. Saya masih belajar membuat web untuk meningkatkan pengalaman saya.
+            Terima kasih untuk para sepuh yang telah mengajari saya</p>
+    </section>
+
+    <section id="projects" class="projects">
+
+        <div style="display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book-filled" width="80"
+                height="35" viewBox="0 0 20 25" stroke-width="2" stroke="currentColor" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                    d="M12.088 4.82a10 10 0 0 1 9.412 .314a1 1 0 0 1 .493 .748l.007 .118v13a1 1 0 0 1 -1.5 .866a8 8 0 0 0 -8 0a1 1 0 0 1 -1 0a8 8 0 0 0 -7.733 -.148l-.327 .18l-.103 .044l-.049 .016l-.11 .026l-.061 .01l-.117 .006h-.042l-.11 -.012l-.077 -.014l-.108 -.032l-.126 -.056l-.095 -.056l-.089 -.067l-.06 -.056l-.073 -.082l-.064 -.089l-.022 -.036l-.032 -.06l-.044 -.103l-.016 -.049l-.026 -.11l-.01 -.061l-.004 -.049l-.002 -.068v-13a1 1 0 0 1 .5 -.866a10 10 0 0 1 9.412 -.314l.088 .044l.088 -.044z"
+                    stroke-width="0" fill="currentColor" />
+            </svg>
+            <h2>Projects</h2>
+        </div>
+        <div class="project">
+            <a href="project_saya.html">
+                <h3>Project Apalah Wak</h3>
+                <p> ini adalah project saya yang telah selesai. Terus belajar dan berkembang.</p>
+            </a>
+        </div>
+        <div class="hiburan">
+            <h4><a href="task.html">My Task</a></h4>
+            <p>Belum selesai, tapi gatau kapan beres!</p>
+            <p> tunggu tugas selanjutnya</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div style="display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-among-us" width="80"
+                height="35" viewBox="0 0 20 25" stroke-width="2" stroke="currentColor" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                    d="M10.646 12.774c-1.939 .396 -4.467 .317 -6.234 -.601c-2.454 -1.263 -1.537 -4.66 1.423 -4.982c2.254 -.224 3.814 -.354 5.65 .214c.835 .256 1.93 .569 1.355 3.281c-.191 1.067 -1.07 1.904 -2.194 2.088z" />
+                <path
+                    d="M5.84 7.132c.083 -.564 .214 -1.12 .392 -1.661c.456 -.936 1.095 -2.068 3.985 -2.456a22.464 22.464 0 0 1 2.867 .08c1.776 .14 2.643 1.234 3.287 3.368c.339 1.157 .46 2.342 .629 3.537v11l-12.704 -.019c-.552 -2.386 -.262 -5.894 .204 -8.481" />
+                <path
+                    d="M17 10c.991 .163 2.105 .383 3.069 .67c.255 .13 .52 .275 .534 .505c.264 3.434 .57 7.448 .278 9.825h-3.881" />
+            </svg>
+            <h2>Skills</h2>
+
+        </div>
+        <ul>
+            <li><img src="ht-removebg-preview.png" alt="HTML"></li>
+            <li><img src="cs-removebg-preview.png" alt="CSS" width="150px"
+                    style="margin-top: 30px; margin-right: 50px;"></li>
+            <li><img src="mikro.png" alt="JavaScript" width="290px" style="margin-top: 30px;"></li>
+        </ul>
+    </section>
+
+    <section id="biodata">
+        <div style="display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-affiliate" width="80"
+                height="35" viewBox="0 0 20 25" stroke-width="2" stroke="currentColor" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
+                <path d="M11.683 12.317l5.759 -5.759" />
+                <path d="M5.5 5.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+                <path d="M18.5 5.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+                <path d="M18.5 18.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+                <path d="M8.5 15.5m-4.5 0a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" />
+            </svg>
+            <h2>Biodata</h2>
+        </div>
+        <div class="biodata">
+            <h3>Data Diri</h3>
+            <p>Nama: Fredly Lafi Maula</p>
+            <p>Kelas: 12 TKJ</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact me at: <a href="mailto:fredlyramdani@gmail.com">fredlyramdani@gmail.com</a></p>
+    </footer>
+</body>
+
+</html>
